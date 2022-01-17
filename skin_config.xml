@@ -1,0 +1,24 @@
+﻿<record>
+	
+	<!--  
+	 ============================================================
+	 Basic Skin Details
+	 
+	 The commands in this file are only used to describe the skin. 
+	 Settings should be placed in the file "skins/<skin>/settings/<skin> settings.xml",
+	 where <skin> is the name of the skin.
+	 
+	 ============================================================ 
+	 -->
+	
+	<!-- skin details - most of these are intentionally not translated -->
+	<string id="name" value="! Scoreboard Selector for FM22" />
+	<string id="author" value="bluestillidie00" />
+	<translation id="description" type="use" value="Adaption of 2022 Selector" />
+	<string id="version" value="1.0" />
+	<flags id="parent" value="fm" />
+	<string id="skin_name" value="fm22sbsel" />
+
+	<string id="required_version" value="22.0.0" />
+	
+</record>

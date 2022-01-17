@@ -1,0 +1,68 @@
+<properties version="1.0">
+
+	<!-- TCS COLOUR -->
+	<!-- USED ON "RO" GRAPHICS TO ROUND OUT ELEMENTS ON HEADERS -->
+	<colour name="ro_header" value="rgb(30,27,32)"/>
+
+	<colour name="bg" value="rgb(32,32,32)"/>
+	<colour name="bg lighter" value="rgb(50,50,50)"/>
+
+	<!-- MAIN ACCENT COLOUR // REPLACES PINK -->
+	<colour name="bg accent" value="rgb(28, 145, 255)"/>
+	<colour name="fg accent" value="rgb(28, 145, 255)"/>
+	<colour name="fg accent light" value="rgb(75, 160, 250)"/>
+	<colour name="fg accent dark" value="rgb(10, 85, 150)"/>
+	
+	<!-- TITLE -->
+	<colour name="title" value="bg accent"/>
+	
+	<!-- BUTTON -->
+	<colour name="standard_button" value="primary"/>
+
+	<!-- ATTRIBUTE ANALYSER -->
+	<colour name="aa1"	value="rgb(223, 232, 240)"/>
+	<colour name="aa2"	value="rgb(155, 200, 245)"/>
+	<colour name="aa3"	value="rgb(115, 180, 245)"/>
+	<colour name="aa4"	value="fg accent light"/>
+
+	<!-- STAR RATING -->
+	<colour name="star rating senior"	value="fg accent"/>
+
+	<!-- STAR RATING -->
+	<colour name="required attribute"	value="fg accent"/>
+	<colour name="preferred attribute"	value="aa2"/>
+
+	<!-- NOTIFICATION ALERT -->
+	<colour name="bg alert"	value="fg accent"/>
+
+	<!-- SCOUTING PACKAGE COLOUR -->
+	<colour name="bg tertiary"	value="bg lighter"/>
+
+	<!-- DIVIDER -->
+	<!-- CANCELLED CAUSE IT LOOKS ASS -->
+	<!-- <colour name="divider"	value="fg accent"/> -->
+
+	<!-- SEARCH FILTER ACTIVE -->	
+	<colour name="search filter active" 	value="fg accent"/>
+	
+	<!-- SELECTED INSTRUCTION -->
+	<!-- EDIT TO MAKE TACTICS GREEN -->
+	<colour name="selected instruction" value="fg accent"/>
+	
+	<!-- EDIT TO MAKE TACTICS GREEN -->
+	
+	<colour name="style_background" value="bg"/>
+	
+	
+	
+	<!-- TUTORIAL RESP -->
+	<colour name="tutorial header" value="fg accent"/>
+	
+		<set_global name="ui.button_row_gap" >
+		<integer value="8"/>
+	</set_global>
+	<set_global name="ui.split_button_row_gap" >
+		<integer value="2"/>
+	</set_global>
+
+</properties>
