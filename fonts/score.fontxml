@@ -1,0 +1,24 @@
+<record>
+	<string id="file_name" value="score1.ttf"/>
+	<real id="font_size_small" value="7" />
+	<real id="font_size_normal" value="7.5" />
+	<real id="font_size_large" value="8" />
+
+	<string id="capitalisation" value="upper case" />
+
+  <integer id="fill_colour_red" value="255" />
+  <integer id="fill_colour_green" value="239" />
+  <integer id="fill_colour_blue" value="239" />
+  <integer id="fill_colour_alpha" value="255" />
+ 
+	<integer id="gradient_upper_colour_red" value="239"/>
+	<integer id="gradient_upper_colour_green" value="239"/>
+	<integer id="gradient_upper_colour_blue" value="239"/>
+	<integer id="gradient_upper_colour_alpha" value="255"/>
+	
+	<integer id="gradient_lower_colour_red" value="239"/>
+	<integer id="gradient_lower_colour_green" value="239"/>
+	<integer id="gradient_lower_colour_blue" value="239"/>
+	<integer id="gradient_lower_colour_alpha" value="255"/>
+  
+</record>

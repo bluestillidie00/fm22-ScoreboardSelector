@@ -22,8 +22,6 @@
 			<layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
 		</container>
 
-		<!-- T! SCOREBOARD SELECTOR -->
-		<container id="sbs1" file="tcs/selector/workings" hidn="true"/>
 
 		<!-- notification container -->
 		<container id="prmo">
@@ -35,6 +33,9 @@
 		<container id="modl">
 			<layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
 		</container>
+
+		<!-- T! SCOREBOARD SELECTOR -->
+		<container id="sbs1" file="tcs/selector/workings" hidn="true"/>
 
 		<!-- Comment this out if the tutorial is disabled -->
 		<!-- tutorial layer -->
