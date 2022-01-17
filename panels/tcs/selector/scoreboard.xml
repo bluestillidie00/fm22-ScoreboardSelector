@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE panel SYSTEM "http://www.sigames.com/dtds/sios/panel.dtd">
+
+<panel title="scoreboards">
+  <layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
+  <container>
+    <layout class="arrange_vertical_attachment" alignment="top, extend" gap="0" offset="0"/>
+    <layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
+    <container>
+      <layout class="stick_to_sides_attachment" alignment="horizontal" inset="0"/>
+      <!-- 1 -->
+      <container id="1scr" hidn="false">
+        <layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
+        <widget class="match_titlebar_panel" file="scoreboard_selector/match title bar score epl" height="75">
+          <layout class="stick_to_sides_attachment" alignment="top" inset="15"/>
+          <layout class="stick_to_sides_attachment" alignment="left" inset="50"/>
+          <record id="object_property" get_property="objt" set_property="objt"/>
+        </widget>
+      </container>
+      <!-- 2 -->
+      <container id="2scr" hidn="true">
+        <layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
+        <widget class="match_titlebar_panel" file="scoreboard_selector/match title bar score ligue1" height="40">
+          <layout class="stick_to_sides_attachment" alignment="top" inset="30"/>
+          <layout class="stick_to_sides_attachment" alignment="left" inset="30"/>
+          <record id="object_property" get_property="objt" set_property="objt"/>
+        </widget>
+      </container>
+      <!-- 3 -->
+      <container id="3scr" hidn="true">
+        <layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
+        <widget class="match_titlebar_panel" file="scoreboard_selector/match title bar score bundesliga" height="40">
+          <layout class="stick_to_sides_attachment" alignment="top" inset="30"/>
+          <layout class="stick_to_sides_attachment" alignment="left" inset="30"/>
+          <record id="object_property" get_property="objt" set_property="objt"/>
+        </widget>
+      </container>
+      <!-- 4 -->
+      <container id="4scr" hidn="true">
+        <layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
+        <widget class="match_titlebar_panel" file="scoreboard_selector/match title bar score seriea" height="40">
+          <layout class="stick_to_sides_attachment" alignment="top" inset="30"/>
+          <layout class="stick_to_sides_attachment" alignment="left" inset="30"/>
+          <record id="object_property" get_property="objt" set_property="objt"/>
+        </widget>
+      </container>
+      <!-- 5 -->
+      <container id="5scr" hidn="true">
+        <layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
+        <widget class="match_titlebar_panel" file="scoreboard_selector/match title bar score laliga" height="40">
+          <layout class="stick_to_sides_attachment" alignment="top" inset="30"/>
+          <layout class="stick_to_sides_attachment" alignment="left" inset="30"/>
+          <record id="object_property" get_property="objt" set_property="objt"/>
+        </widget>
+      </container>
+      <!-- 6 -->
+      <container id="6scr" hidn="true">
+        <layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
+        <widget class="match_titlebar_panel" file="scoreboard_selector/match title bar score champ" height="55">
+          <layout class="stick_to_sides_attachment" alignment="top" inset="30"/>
+          <layout class="stick_to_sides_attachment" alignment="left" inset="30"/>
+          <record id="object_property" get_property="objt" set_property="objt"/>
+        </widget>
+      </container>
+      <!-- 7 -->
+      <container id="7scr" hidn="true">
+        <layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
+        <widget class="match_titlebar_panel" file="scoreboard_selector/match title bar score europa" height="51">
+          <layout class="stick_to_sides_attachment" alignment="top" inset="30"/>
+          <layout class="stick_to_sides_attachment" alignment="left" inset="30"/>
+          <record id="object_property" get_property="objt" set_property="objt"/>
+        </widget>
+      </container>
+      <!-- 8 -->
+      <container id="8scr" hidn="true">
+        <layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
+        <widget class="match_titlebar_panel" file="scoreboard_selector/match title bar score facup" height="70">
+          <layout class="stick_to_sides_attachment" alignment="top" inset="15"/>
+          <layout class="stick_to_sides_attachment" alignment="left" inset="30"/>
+          <record id="object_property" get_property="objt" set_property="objt"/>
+        </widget>
+      </container>
+      <!-- 9 
+      <container id="9scr" hidn="true">
+        <layout class="stick_to_sides_attachment" alignment="all" inset="0"/>
+        <widget class="match_titlebar_panel" file="scoreboard_selector/match title bar score kleague" height="51">
+          <layout class="stick_to_sides_attachment" alignment="top" inset="30"/>
+          <layout class="stick_to_sides_attachment" alignment="left" inset="30"/>
+          <record id="object_property" get_property="objt" set_property="objt"/>
+        </widget>
+      </container>-->
+
+    </container>
+  </container>
+</panel>

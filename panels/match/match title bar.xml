@@ -2,7 +2,7 @@
 
 	<attachment_group class="vertical_arrange_autosize"/>
 
-	<container height="40">
+	<container height="60">
 		<attachment_group class="horizontal_arrange" horizontal_alignment="right,extend" horizontal_gap="4" horizontal_offset="0" vertical_inset="0" />
 
 		<container>
@@ -16,12 +16,16 @@
 					<attachment class="get_global_attachment" get_property="hnpt" set_property="itms" />
 					<record id="primary_icon_properties" red_replacement="text"/>
 					<record id="click_event" event_id="GOTO" event_target="brow" scin="-8" />
-
 					<attachment class="test_global_attachment" get_property="MnuS" mode="not_equal" value="true" set_property="hidn" skip_if_null="true"/>
 				</widget>
 
-				<container class="client_object_viewer_xml_panel" file="match/match score area panel">
-					<record id="object_property" get_property="objt" set_property="objt" />
+				<container width="600">
+					<layout class="stick_to_sides_attachment" apply_to_children="true"/>
+					<widget class="match_titlebar_panel" file="tcs/selector/match scoreboard selector">
+						<layout class="stick_to_sides_attachment" alignment="top" inset="0"/>
+						<layout class="stick_to_sides_attachment" alignment="left" inset="0"/>
+						<record id="object_property" get_property="objt" set_property="objt"/>
+					</widget>
 				</container>
 
 				<container class="main_box_no_margin" id="wfHc"  appearance="boxes/custom/match/tv captions/si tv/score/time/paper" red_replacement="bg">
