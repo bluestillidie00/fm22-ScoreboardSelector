@@ -1,12 +1,11 @@
 ﻿<!-- THIS PANEL IS THE SCOREBOARD ON THE MATCH SCREEN -->
 <panel width="700" colour_team_names="false" colour_team_scores="false">
+	<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 
 	<list id="properties_to_forward">
 		<record get_property="disable_animations" set_property="disable_animations" target="clkc"/>
 		<record get_property="disable_animations" set_property="disable_animations" target="temc"/>
 	</list>
-
-	<layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
 
 	<container>
 		<attachment_group class="horizontal_arrange" horizontal_gap="0" horizontal_offset="0" vertical_inset="0" />
