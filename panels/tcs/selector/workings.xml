@@ -18,8 +18,7 @@
       </record>
     </attachment>
   </widget>
-  
-  
+    
   <container>
     <layout class="arrange_vertical_attachment" alignment="fill" offset="0" gap="0" layout="200,220, -1"/>
     <layout class="stick_to_sides_attachment" alignment="horizontal" inset="0" apply_to_children="true" />
@@ -27,9 +26,10 @@
 
     <container/>
 
-    <container class="bordered_box" >
+    <container >
       <layout class="stick_to_sides_attachment" alignment="all" inset="0" apply_to_children="true"/>
-      <container>
+      
+      <container class="tcs_box" >
         <layout class="arrange_horizontal_attachment" alignment="fill" offset="0" gap="0" layout="10, -1, 10"/>
         <layout class="centre_in_parent_attachment" alignment="vertical" offset="0" apply_to_children="true" />
         <layout class="stick_to_sides_attachment" alignment="horizontal" inset="0"/>
@@ -145,7 +145,7 @@
             </attachment>           
           </widget>
           <!-- 3 -->
-          <widget class="button" text="" appearance="boxes/custom/match/scoreboard/icon/bundesliga" auto_size="all">
+          <widget class="button" text="" appearance="boxes/hints/standard/paper" auto_size="all" rrep="fm purple">
             <event id="click_event" event_id="kev6"/>
             <attachment class="event_relay_attachment" event_id="kev6">
               <record id="action_event">
@@ -197,7 +197,7 @@
             </attachment>           
           </widget>
           <!-- 4 -->
-          <widget class="button" text="" appearance="boxes/custom/match/scoreboard/icon/seriea" auto_size="all">
+          <widget class="button" text="" appearance="boxes/hints/standard/paper" auto_size="all" rrep="green">
             <event id="click_event" event_id="kev6"/>
             <attachment class="event_relay_attachment" event_id="kev6">
               <record id="action_event">
