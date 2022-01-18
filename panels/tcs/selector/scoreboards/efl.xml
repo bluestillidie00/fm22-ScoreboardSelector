@@ -1,6 +1,6 @@
 ﻿<!-- THIS PANEL IS THE SCOREBOARD ON THE MATCH SCREEN -->
 <!-- USES A WEIRD LAYOUT, DON'T LIKE IT -->
-<panel width="490" colour_team_names="true" colour_team_scores="false">
+<panel width="440" colour_team_names="true" colour_team_scores="false">
 	<!-- USED TO CREATE MULTI LAYER SO WE CAN HAVE THE BUTTON -->
 	<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 
@@ -11,15 +11,15 @@
 	</list>
 
 	<!-- MAIN SCOREBOARD -->
-	<container class="main_box" appearance="tcs/match/efl/nbase">
+	<container >
 		<attachment_group class="horizontal_arrange" horizontal_gap="0" />
 
 		<!-- EFL LOGO -->
 		<!-- TOM TODO:  REPLACE LOGO -->
-		<container class="main_box" appearance="tcs/match/efl/comp" width="101"/> 
+		<container class="main_box" appearance="tcs/match/efl/nbase_left" width="40"/> 
 
 		<!-- CONTAINER HOLDING CLOCK -->
-		<container width="160" id="clkc" >
+		<container width="160" id="clkc" class="main_box" appearance="tcs/match/efl/nbase_mid">
 			<animation class="translate_animation" start_value="-1, 0" end_value="0, 0" duration="0.4" delay="0" end_mode="hold_end" tween="ease_out_4" coord_mode="relative_to_target"/>
 			<animation class="fade_animation" start_value="0" end_value="1" duration="0.3" delay="0.8" end_mode="hold_end"/>
 
@@ -42,32 +42,36 @@
 					<!--injury time indicator-->
 					<container id="MijC" height="16">
 						<attachment_group class="horizontal_arrange_autosize"/>
-
 						<widget class="text" id="Mijt" auto_size="horizontal" alignment="centre" colour="fg negative"/>
-
 					</container>
+
 				</container>
-				<widget class="match_time_slider_panel" height="4" file="match/match time slider panel small">
+				
+				<!-- <widget class="match_time_slider_panel" height="4" file="match/match time slider panel small">
 					<layout class="stick_to_sides_attachment" alignment="horizontal" inset="0,0,0,13"/>
 
 					<record id="object_property">
 						<integer id="get_property" value="objt" />
 						<integer id="set_property" value="objt" />
 					</record>
-				</widget> 
+				</widget>  -->
 			</container>
 		</container>
 
-		<!-- HOME TEAM -->
-		<!-- VERY AWKWARD LAYOUT CAUSE FM IS SHIT AND MAKES RECOLOURING VERY HARD -->
-		<container width="75" class="main_box" appearance="tcs/match/efl/nth" id="T1Co">
+		<container width="80" class="main_box" appearance="tcs/match/efl/nbase_mid">
 			<layout class="stick_to_sides_attachment" apply_to_children="true"/>
 
-			<!-- TEAM NAME -->
-			<widget class="text_button" id="T1nm"  size="16" alignment="centre_x,centre_y,can_scale" click_event="htac" navigation_focus_target="false" style="bold"/>
+			<!-- HOME TEAM -->
+			<!-- VERY AWKWARD LAYOUT CAUSE FM IS SHIT AND MAKES RECOLOURING VERY HARD -->
+			<container width="75" class="main_box" appearance="tcs/match/efl/nth" id="T1Co">
+				<layout class="stick_to_sides_attachment" apply_to_children="true"/>
+
+				<!-- TEAM NAME -->
+				<widget class="text_button" id="T1nm"  size="16" alignment="centre_x,centre_y,can_scale" click_event="htac" navigation_focus_target="false" style="bold"/>
+			</container>
 		</container>
 
-		<container width="80" class="main_box" appearance="tcs/match/efl/nbase">
+		<container width="80" class="main_box" appearance="tcs/match/efl/nbase_mid">
 			<attachment_group class="horizontal_arrange" horizontal_alignment="middle" horizontal_gap="6" horizontal_offset="0" vertical_inset="0" />
 
 			<record id="default_properties" size="16"  colour="white" style="bold" auto_size="horizontal"/>
@@ -76,7 +80,6 @@
 			<widget class="text" alignment="centre" text="•"  colour="white" font="text"/>
 			<widget class="text" id="T2sc" alignment="left,centre_y" colour="white"/>		
 		</container>
-
 
 		<!-- HOME TEAM -->
 		<!-- VERY AWKWARD LAYOUT CAUSE FM IS SHIT AND MAKES RECOLOURING VERY HARD -->
